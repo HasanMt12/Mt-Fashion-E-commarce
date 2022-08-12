@@ -1,0 +1,88 @@
+#header-content {
+    font-size: 50px !important;
+}
+
+.content-style {
+    color: #2D4059;
+}
+
+.login-box {
+
+    top: 10%;
+    left: 20%;
+    width: 600px;
+    padding: 40px;
+    /* transform: translate(-50%, -50%); */
+    background: linear-gradient(to right, rgb(85, 113, 150), rgb(46, 69, 99));
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(96, 114, 138);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: rgb(138, 170, 162);
+    font-size: 22px;
+}
+
+/* .content-animation{
+   
+    text-align: center;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+@keyframes example {
+    0% {
+        
+        top: 0px;
+    }
+
+    50% {
+        
+        top: 40px;
+    }
+
+    100% {
+        
+        top: 00px;
+    }
+
+} */
